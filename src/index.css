@@ -38,11 +38,15 @@ body {
 }
 form {
   max-width: 500px !important;
+  box-shadow: 0 0 10px #000 !important;
 }
 label,
 h2,
 p,
 .dark {
-  color: black !important;
+  color: white !important;
   font-weight: light !important;
+}
+h2 {
+  text-shadow: 0 0 5px #000;
 }

@@ -7,7 +7,7 @@ const SignIn = ({ handleSignIn }) => {
       onSubmit={handleSignIn}
       className="signIn container d-flex flex-column gap-3 p-2"
     >
-      <h2 className="display-6 text-center">Sign In</h2>
+      <h2 className="display-6 text-light text-center">Sign In</h2>
       <div className="form-group d-flex flex-column gap-1">
         <label htmlFor="userName">Email</label>
         <input
@@ -30,13 +30,13 @@ const SignIn = ({ handleSignIn }) => {
       </div>
       <div className="form-group d-flex justify-content-between gap-1 px-1">
         <Link
-          className="link-dark dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          className="link-light btn btn-outline-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
           to="forgot"
         >
           Forgot Password
         </Link>
         <Link
-          className="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          className="link-light btn btn-outline-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
           to="signup"
         >
           Sign Up
